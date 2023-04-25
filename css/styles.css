@@ -348,6 +348,9 @@ ul.site-nav:nth-child(2n) {
 
     color:var(--icon-brands-color-border);
 }
+.input-wrapper {
+    position: relative;
+}
 
 .form-input {
     width: 100%;
@@ -356,6 +359,14 @@ ul.site-nav:nth-child(2n) {
     border-radius: 4px;
 
     padding-left: 38px;
+}
+
+.input-icon-desc {
+    position: absolute;
+    top: 50%;
+    left: 19px;
+
+    transform: translate(0, -50%);
 }
 
 .form-message {}
