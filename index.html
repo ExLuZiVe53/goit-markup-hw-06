@@ -135,16 +135,17 @@
                   placeholder="Text input"
                 ></textarea>
               </label>
-              <input
-                id="user-policy"
-                type="checkbox"
-                class="form-check"
-                name="user-policy"
-              />
-              <label for="user-policy" class="form-check-desc"
-                >I accept the terms and conditions of the
-                <a href="">Privacy Policy</a></label
-              >
+              <div class="input-checkbox-wrapper">
+                <label class="modal-checkbox">
+                  <input class="checkbox" type="checkbox" name="policy" />
+                  <span class="checkbox-icon"></span>
+                  <span class="checkbox-text"
+                    >I accept the terms and conditions of the
+                    <a href=""> Privacy Policy</a></span
+                  >
+                </label>
+              </div>
+
               <button type="submit" class="btn form-submit">Send</button>
             </form>
           </div>
@@ -628,20 +629,25 @@
           </ul>
         </div>
 
-        <form>
-          <label>
-            Subscribe
-            <input type="email" name="email" placeholder="E-mail" />
-          </label>
-        </form>
-        <button class="button" type="submit">
-          Subscribe
-          <a href="" class="icon-link-footer">
-            <svg class="icons-airplane" width="24" height="24">
-              <use href="./images/icon.svg#icon-airplane"></use>
-            </svg>
-          </a>
-        </button>
+        <!-- Footer form -->
+        <div class="footer-subscribe">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form">
+            <input
+              class="footer-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              aria-label="email"
+            />
+            <button type="submit">
+              Subscribe
+              <svg class="icon-airplane" width="24" height="20">
+                <use href="./images/icon.svg#icon-airplane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Put it in front of the body tag -->
