@@ -373,6 +373,7 @@ ul.site-nav:nth-child(2n) {
 
 .form-input:focus {
     border-color: var(--akcent-color);
+    outline: none;
 }
 
 .input-icon {
