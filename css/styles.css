@@ -326,6 +326,7 @@ ul.site-nav:nth-child(2n) {
     text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    margin-top: 24px;
 
     color: var(--primary-text-color);
 }
