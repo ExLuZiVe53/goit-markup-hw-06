@@ -340,6 +340,10 @@ ul.site-nav:nth-child(2n) {
 }
 
 .form-field {
+    margin-bottom: 8px;
+}
+
+.form-field.message {
     margin-bottom: 16px;
 }
 
@@ -383,6 +387,7 @@ ul.site-nav:nth-child(2n) {
     top: 50%;
     left: 19px;
 
+    fill: var(--primary-text-color);
     transform: translateY(-50%);
     transition: fill 250ms var(--cubic);
 }
@@ -441,12 +446,12 @@ ul.site-nav:nth-child(2n) {
 
 .input-checkbox-wrapper {
     display: flex;
+    margin-bottom: 24px;
 }
 
 .modal-checkbox {
     position: relative;
     display: flex;
-    margin-bottom: 24px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.7;
